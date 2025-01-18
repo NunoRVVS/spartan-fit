@@ -89,7 +89,7 @@ export default function Generator(props) {
               return (
                 <button onClick={() => {
                     updateMuscles(muscleGroup)
-                }} key={muscleGroupIndex} className={'hover:text-blue-400 duration-200 ' + (muscles.includes(muscleGroup) ? 'text-blue-400' : ' ')}>
+                }} key={muscleGroupIndex} className={'hover:text-blue-400q ' + (muscles.includes(muscleGroup) ? 'text-blue-400' : ' ')}>
                   <p className='uppercase text-center'>{muscleGroup.replaceAll('_', ' ')}</p>
                 </button>
               )

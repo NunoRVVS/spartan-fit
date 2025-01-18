@@ -4,7 +4,6 @@ import Generator from './assets/components/Generator'
 import Workout from './assets/components/Workout'
 import { generateWorkout } from './utils/functions'
 
-
 function App() {
   const [workout, setWorkout] = useState(null)
   const [poison, setPoison] = useState('individual')
@@ -24,7 +23,7 @@ function App() {
 
 
   return (
-    <main className='min-h-screen flex flex-col bg-gradient-to-t from-slate-800 to-slate-950 text-white text-sm sm:text-base'>
+    <main className='min-h-screen flex flex-col bg-gradient-to-t from-yellow-950 to-green-950 text-white text-sm sm:text-base'>
       <Hero />
       <Generator 
       poison={poison}
